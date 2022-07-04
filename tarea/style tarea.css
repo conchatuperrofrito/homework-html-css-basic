@@ -1,0 +1,23 @@
+.text {
+  text-align: center;
+  margin: 10%;
+  color: aliceblue;
+}
+html {
+  background-color: rgb(57, 113, 146);
+}
+/* el background-color se sobrepone */
+.header {
+  text-align: center;
+
+  margin-left: 33%;
+  margin-right: 30%;
+
+  color: rgb(95, 182, 233);
+  background-color: rgb(255, 255, 255);
+  /* tenemos que convertir en bloque de linea para ponder manejar elemntos */
+  display: inline-block;
+  padding-left: 90px;
+
+  padding-right: 90px;
+}
